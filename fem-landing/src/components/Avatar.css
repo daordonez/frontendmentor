@@ -1,0 +1,36 @@
+
+.avatar__container{
+  display: flex;
+  border: 1px dashed;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.avatar {
+  /* Rounded border */
+  border-radius: 50%;
+
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  /* Size */
+  height: 10rem;
+  width: 100%;
+}
+
+.avatar__image {
+  /* Size */
+  height: 50%;
+  width: 50%;
+}
+.avatar__username {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}

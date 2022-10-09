@@ -1,0 +1,26 @@
+
+.card {
+  min-height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 15px 35px 48px -7px #CDCBD8;
+  overflow: hidden;
+  
+}
+
+.card-cover {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(209, 213, 219);
+}
+
+.card-content {
+  /* Take available height */
+  flex: 1;
+  height: 20rem;
+  text-align: center;
+  margin-top: 5%;
+}
