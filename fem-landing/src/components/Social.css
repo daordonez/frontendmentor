@@ -1,0 +1,6 @@
+.social__container {
+    border: 1px dashed;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}

@@ -29,8 +29,8 @@
 }
 .avatar__username {
   display: flex;
-  text-align: center;
+  text-align: start;
   width: 100%;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }

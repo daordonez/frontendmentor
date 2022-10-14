@@ -3,6 +3,7 @@ import Avatar from './components/Avatar';
 import Biography from './components/Biography';
 import './components/Card';
 import Card from './components/Card';
+import Social from './components/Social';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <aside class="sidebar__sidebar">
       <Avatar/>
       <Biography />
+      <Social />
     </aside>
     <main class="sidebar__main">
     <div className='card-layout'>
